@@ -1,6 +1,6 @@
 # Linear Regression - Tennis
 ## Project Goals
-You will create a linear regression model that predicts the outcome for a tennis player based on their playing habits. By analyzing and modeling the Association of Tennis Professionals (ATP) data, you will determine what it takes to be one of the best tennis players in the world.
+Create a linear regression model that predicts the outcome for a tennis player based on their playing habits.
 
 ## built with
 * Python 3
@@ -41,7 +41,7 @@ ReturnGamesWon | total number of games where the player’s opponent served and 
 ReturnPointsWon | total number of points where the player’s opponent served and the player won
 TotalPointsWon | % of points won by the player
 
-## Outcomes
+### Outcomes
 Field | Description
 ------------ | -------------
 Wins| number of matches won in a year
@@ -50,5 +50,5 @@ Winnings| total winnings in USD($) in a year
 Ranking| ranking at the end of year
 
 ## acknowledgements
-* [Kaggle, Jessica Li](https://www.kaggle.com/jessicali9530/honey-production)
+* Association of Tennis Professionals, downloaded from Codecademy
 * [Codecademy Data Scientist Skill Path](https://www.codecademy.com/learn)
