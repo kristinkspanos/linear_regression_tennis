@@ -7,7 +7,7 @@ Create a linear regression model that predicts the outcome for a tennis player b
 * Jupyter Notebook
 
 ## data sources
-Men's Professional Tennis League; Association of Tennis Professionals (downloaded from Codecademy)
+Association of Tennis Professionals (downloaded from Codecademy)
 
 ### Identifying Data
 Field | Description
