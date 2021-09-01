@@ -1,5 +1,5 @@
 # Linear Regression - Tennis
-## Project Goals
+## project goals
 Create a linear regression model that predicts the outcome for a tennis player based on their playing habits.
 
 ## built with
