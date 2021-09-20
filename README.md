@@ -10,46 +10,38 @@ Create linear regression models to predict outcomes for a tennis player based on
 ## results
 * Single feature linear regression
   * Model A
-    * x = ReturnPointsWon
-    * y = ReturnGamesWon
-    * R² for the training test: 0.76
-    * R² for the testing test: 0.76
+    * x = ReturnPointsWon, y = ReturnGamesWon
+    * R² for the training test: 0.76, R² for the testing test: 0.76
     * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.76 indicates that the model explains 76% of the variation in the model, which is a strong result.
   * Model B
-    * x = ServiceGamesPlayed
-    * y = Aces
+    * x = ServiceGamesPlayed, y = Aces
     * R² for the training test: 0.76
     * R² for the testing test: 0.73
     * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.73 for the testing set indicates that the model explains 73% of the variation in the model, which is a strong result.
   * Model C
-    * x = FirstServePointsWon
-    * y = Wins
+    * x = FirstServePointsWon, y = Wins
     * R² for the training test: 0.12
     * R² for the testing test: 0.14
     * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.14 for the testing set indicates that the model explains 14% of the variation in the model, which is a weak result.
 * Two feature lienar regression
   * Model D
-    * x = ReturnGamesPlayed, ServiceGamesPlayed
-    * y = Winnings
+    * x = ReturnGamesPlayed, ServiceGamesPlayed, y = Winnings
     * R² for the training test: 0.84
     * R² for the testing test: 0.83
     * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.83 for the testing set indicates that the model explains 83% of the variation in the model, which is a weak result.
   * Model E
-    * x = DoubleFaults, BreakPointsOpportunities
-    * y = Winnings  
+    * x = DoubleFaults, BreakPointsOpportunities, y = Winnings  
     * R² for the training test: 0.82
     * R² for the testing test: 0.83
     * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.83 for the testing set indicates that the model explains 83% of the variation in the model, which is a weak result.
 * Multiple linear regression 
   * Model F
-    * x = ServiceGamesPlayed, ReturnGamesPlayed, Wins, Losses
-    * y = Winnings
+    * x = ServiceGamesPlayed, ReturnGamesPlayed, Wins, Losses, y = Winnings
     * R² for the training test: 0.87
     * R² for the testing test: 0.85
     * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.85 for the testing set indicates that the model explains 85% of the variation in the model, which is a weak result.
   * Model G
-    * x = Aces, BreakPointsFaced, BreakPointsOpportunities, DoubleFaults, ReturnGamesPlayed, ServiceGamesPlayed, Wins, Losses
-    * y = Winnings
+    * x = Aces, BreakPointsFaced, BreakPointsOpportunities, DoubleFaults, ReturnGamesPlayed, ServiceGamesPlayed, Wins, Losses, y = Winnings
     * R² for the training test: 0.87
     * R² for the testing test: 0.85
     * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.85 for the testing set indicates that the model explains 85% of the variation in the model, which is a weak result.
