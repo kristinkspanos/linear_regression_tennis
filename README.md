@@ -26,7 +26,7 @@ The dataset contains two types of numeric variables - proportional variables tha
   * R² for the training test: 0.12
   * R² for the testing test: 0.14
   * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.14 for the testing set indicates that the model explains 14% of the variation in the model, which is a weak result. This weak results may result because FirstServePointsWon is a percentage, and Wins is a count.
-### Two feature lienar regression
+### two feature lienar regression
 * Model D
   * x = ReturnGamesPlayed (c), ServiceGamesPlayed (c), y = Winnings
   * R² for the training test: 0.84
@@ -37,7 +37,7 @@ The dataset contains two types of numeric variables - proportional variables tha
   * R² for the training test: 0.82
   * R² for the testing test: 0.83
   * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.83 for the testing set indicates that the model explains 83% of the variation in the model, which is a weak result.
-### Multiple linear regression 
+### multiple linear regression 
 * Model F
   * x = ServiceGamesPlayed (c), ReturnGamesPlayed (c), Wins (c), Losses (c), y = Winnings
   * R² for the training test: 0.87
@@ -62,7 +62,7 @@ Field | Description
 Player | name of the tennis player
 Year | year data was recorded
 
-### Service Game Columns (Offensive)
+### service game columns (offensive)
 Field | Description
 ------------ | -------------
 Aces | number of serves by the player where the receiver does not touch the ball
@@ -76,7 +76,7 @@ ServiceGamesPlayed | total number of games where the player served
 ServiceGamesWon | total number of games where the player served and won
 TotalServicePointsWon | % of points in games where the player served that they won
 
-### Return Game Columns (Defensive)
+### return game columns (defensive)
 Field | Description
 ------------ | -------------
 FirstServeReturnPointsWon | % of opponents first-serve points the player was able to win
@@ -88,7 +88,7 @@ ReturnGamesWon | total number of games where the player’s opponent served and 
 ReturnPointsWon | total number of points where the player’s opponent served and the player won
 TotalPointsWon | % of points won by the player
 
-### Outcomes
+### outcomes
 Field | Description
 ------------ | -------------
 Wins| number of matches won in a year
