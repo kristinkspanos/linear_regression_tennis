@@ -49,6 +49,9 @@ The dataset contains two types of numeric variables - proportional variables tha
   * R² for the testing test: 0.85
   * Interpretation: The R² for the test and training sets are similar, indicating that the model generalizes the data well. An R² value of 0.85 for the testing set indicates that the model explains 85% of the variation in the model, which is a weak result.
 
+## ideas for additional analysis
+Calculate a variable that shows the pct. of matches that a player won in a year ( 'Wins' / ('Wins' + 'Losses')). Create linear regression models using the proportional variables in the dataset to analyze which variables predict wins as a pct. of total matches played.
+
 ## built with
 * Python 3
 * Jupyter Notebook
