@@ -1,9 +1,8 @@
 # Linear Regression - Tennis
 ## project goals
 Create linear regression models to predict outcomes for a tennis player based on their playing habits. This Codecademy project includes the following prompts:
-* Perform exploratory analysis on the data by plotting different features against the different outcomes. What relationships do you find between the features and outcomes? Do any of the features seem to predict the outcomes?
-* Use one feature from the dataset to build a single feature linear regression model on the data. Your model, at this point, should use only one feature and predict one of the outcome columns. Before training the model, split your data into training and test datasets so that you can evaluate your model on the test set. How does your model perform? Plot your model’s predictions on the test set against the actual outcome variable to visualize the performance.
-* Create a few more linear regression models that use one feature to predict one of the outcomes. Which model that you create is the best?
+* Perform exploratory analysis on the data by plotting different features against the different outcomes.
+* Build single feature linear regression models on the data.
 * Create a few linear regression models that use two features to predict yearly earnings. Which set of two features results in the best model?
 * Create a few linear regression models that use multiple features to predict yearly earnings. Which set of features results in the best model?
 
